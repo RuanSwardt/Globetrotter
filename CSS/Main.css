@@ -1,0 +1,44 @@
+html, body
+{
+  /*Size and Color */
+  height: 100%;
+  margin: 0;
+  background-color: #505050;
+}
+
+.divHeader
+{
+  /* Sizes */
+  width: auto;
+  height: 100px;
+  border-radius: 10px;
+
+  /*Position */
+  margin: 0;
+
+  /* Color */
+  background-color: #282828
+}
+
+.divLogo
+{
+  height: 100%;
+  width: 30%;
+}
+
+.divSidebar
+{
+  /*Shape and color */
+  border-radius: 10px;
+  background-color: #1aa3ff;
+
+  /*Size*/
+  height: 86%;
+  width: 100px;
+}
+
+.divLogo
+{
+  width: 100px;
+  height: 100px;
+}

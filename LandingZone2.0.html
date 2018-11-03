@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Globetrotter</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="CSS\LandingZone2.0CSS.css">
+      <!-- Scripts -->
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="JS\LogIn.js"></script>
+
+    </head>
+    <body>
+
+      <div class="WebsiteName">
+        <H1>Globetrotter</H1>
+        <H5>Adventure Awaits...</H5>
+      </div>
+      <div class="circleContainer">
+      <div class="circle">
+
+      <!--<div id="divLogo">
+        <img id="Logo" src="Images\Globetrotter_Logo.png" alt="Globetrotter Logo">
+      </div> -->
+
+      <br>
+
+    <div id="divUserCredentials">
+
+      <!--<label class="Test">For testing purposes</label> -->
+        <table id="tblCredentials" class="ctblCredentials">
+          <tbody>
+            <div id="divUsername" class="input-container">
+              <tr>
+                <td>
+                  <i id="iUser" class="glyphicon glyphicon-user"></i>
+                </td>
+                <td>
+                  <input type="text" class="input-field" id="inUsername" placeholder="Username" onchange="">
+                </td>
+                <td>
+                </td>
+              </tr>
+            </div>
+            <tr>
+              <td>
+              </td>
+              <td>
+                  <div class="divSpacing"></div>
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <div id="divPassword" class="input-container">
+              <tr>
+                <td>
+                  <i id="iLock" class="glyphicon glyphicon-lock"></i>
+                </td>
+              <td>
+                <input id="inPassword" class="input-field" type="password" placeholder="Password" onchange="">
+              </td>
+              <td>
+                <button id="btnRevealPass" class="btn btn-default reveal" type="button" onclick="visible()"><i id="iEye" class="glyphicon glyphicon-eye-close"></i></button>
+              </td>
+              </tr>
+            </div>
+
+            <tr>
+              <td>
+              </td>
+              <td>
+                <div class="divSpacing"></div>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+              </td>
+              <td>
+                <button id="btnLogin" type="button" onclick="validateUserCredentials()"><span class="glyphicon glyphicon-plane"></span> Take off</button>
+              </td>
+              <td>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+      <div class="divSignUp">
+
+      </div>
+    </div>
+  </div>
+    </body>
+  </html>
